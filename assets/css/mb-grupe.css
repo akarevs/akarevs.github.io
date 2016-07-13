@@ -962,6 +962,7 @@ CUSTOM MEDIA QUERIES
 
 	.navbar-collapse {
   		opacity: 1;
+  		overflow-y: hidden;
   	}
 
   	/* HEADER SECTION */
@@ -1048,6 +1049,7 @@ CUSTOM MEDIA QUERIES
 
 	.navbar-collapse {
 		padding-top: 0;
+		overflow-y: none;
 	}
 
 	.menu-icons {
@@ -1112,6 +1114,7 @@ CUSTOM MEDIA QUERIES
 
 	.navbar-collapse {
   		opacity: 1;
+  		overflow-y: hidden;
   	}
 
   	/* HEADER SECTION */
@@ -1250,7 +1253,8 @@ CUSTOM MEDIA QUERIES
 		top: 0;
 		right: -500px;
 		z-index: 2;
-		overflow-y: scroll;
+		/*overflow-y: scroll;*/
+		overflow-y: hidden;
 		height: 100% !important;
 		width: 100%;
 		opacity: 0;
@@ -1258,6 +1262,7 @@ CUSTOM MEDIA QUERIES
 
 	div#navbar.navbar-collapse {
 		padding-top: 0;
+		overflow-y: hidden;
 	}	
 
 	ul.nav.navbar-nav {
@@ -1276,6 +1281,7 @@ CUSTOM MEDIA QUERIES
 	opacity: 1;
 	right: 0 !important;
 	transition: all .3s ease-out;
+	overflow-y: hidden;
 }
 
 /*.body-shading {
