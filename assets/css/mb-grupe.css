@@ -953,6 +953,7 @@ CUSTOM MEDIA QUERIES
   		background: none;
   		transition: all 0.0s ease-out;
   		box-shadow: none;
+  		overflow-y: none;
   	}
 
 	ul.nav.navbar-nav {
@@ -1102,6 +1103,7 @@ CUSTOM MEDIA QUERIES
   		background: none;
   		transition: all 0.0s ease-out;
   		box-shadow: none;
+  		overflow-y: none;
   	}
 
 	ul.nav.navbar-nav {
