@@ -235,6 +235,10 @@ CUSTOM MEDIA QUERIES
 		margin-right: 5px;
 	}
 
+	.phone-right {
+		text-align: right;
+	}
+
 	button.navbar-toggle.collapsed {
 		padding-right: 0;
 	}
