@@ -613,7 +613,8 @@ CUSTOM MEDIA QUERIES
   		width: 335px;
   		height: 100% !important;
   		z-index: 2;
-  		overflow-y: scroll;
+  		overflow-y: hidden !important;
+  		overflow-x: hidden !important;
   		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 3px 0 rgba(0, 0, 0, 0.19);
   	}
 
@@ -960,7 +961,8 @@ CUSTOM MEDIA QUERIES
   		background: none;
   		transition: all 0.0s ease-out;
   		box-shadow: none;
-  		overflow-y: hidden;
+  		overflow-y: hidden !important;
+  		overflow-x: hidden !important;
   	}
 
 	ul.nav.navbar-nav {
@@ -1113,7 +1115,8 @@ CUSTOM MEDIA QUERIES
   		background: none;
   		transition: all 0.0s ease-out;
   		box-shadow: none;
-  		overflow-y: hidden;
+  		overflow-y: hidden !important;
+  		overflow-x: hidden !important;
   	}
 
 	ul.nav.navbar-nav {
@@ -1255,7 +1258,8 @@ CUSTOM MEDIA QUERIES
 
 	div#navbar.navbar-collapse {
 		padding-top: 0;
-		overflow-y: hidden;
+		overflow-y: hidden !important;
+		overflow-x: hidden !important;
 	}	
 
 	ul.nav.navbar-nav {
