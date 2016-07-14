@@ -870,6 +870,10 @@ CUSTOM MEDIA QUERIES
 		cursor: pointer;
 	}
 
+	.email-right {
+		text-align: right;
+	}
+
 
 }
 
@@ -1019,8 +1023,9 @@ CUSTOM MEDIA QUERIES
 		font-size: 1.125em;
 	}
 
-
-
+	.email-right {
+		text-align: right;
+	}
 
 }
 
@@ -1171,24 +1176,9 @@ CUSTOM MEDIA QUERIES
 		font-size: 1.125em;
 	}
 
-
-	/*.container {
-		width: 1170px;
+	.email-right {
+		text-align: right;
 	}
-
-	#lang-menu {
-	    margin-top: 23px;
-	    float: right;
-	    margin-left: 4%;
-  	}
-
-  	.navbar-collapse {
-  		opacity: 1;
-  	}
-
-  	h3 {
-		font-size: 1.125em;
-	}*/
 }
 
 
