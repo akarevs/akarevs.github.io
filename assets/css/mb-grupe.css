@@ -66,6 +66,7 @@ a {
 }
 
 .client-selector {
+	position: relative;
 	cursor: pointer;
 	list-style: none;
 	display: inline-block;
@@ -75,8 +76,15 @@ a {
 	border-radius: 50%;
 }
 
+.client-selector:after {
+	content:'';
+    position:absolute;
+    top:-15px; bottom:-15px; 
+    left:-15px; right:-15px;
+}
+
 .client-selector:not(:last-child) {
-	margin-right: 14px;
+	margin-right: 25px;
 }
 
 .active-client {
@@ -476,11 +484,6 @@ CUSTOM MEDIA QUERIES
 		cursor: pointer;
 	}
 
-	.footer-phone {
-		text-align: right;
-	}
-
-
 }
 
 /* SMALL DEVICES, TABLETS */
@@ -862,10 +865,6 @@ CUSTOM MEDIA QUERIES
 		font-size: 1.125em;
 		cursor: pointer;
 	}
-
-	/*.footer-phone {
-		text-align: right;
-	}*/
 
 
 }
