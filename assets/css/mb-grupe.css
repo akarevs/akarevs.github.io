@@ -222,7 +222,6 @@ CUSTOM MEDIA QUERIES
 		position: absolute;
 		top: 50%;
 		margin-top: -10px;
-
 	}
 
 	#phone-right {
@@ -542,6 +541,8 @@ CUSTOM MEDIA QUERIES
 
 	div#navbar.navbar-collapse.collapse.in {
 		margin-top: 100px;
+		overflow-y: hidden !important;
+  		overflow-x: hidden !important;
 	}
 
 	.menu-icons {
@@ -624,6 +625,8 @@ CUSTOM MEDIA QUERIES
 
 	div#navbar.navbar-collapse.right {
 		padding-top: 0;
+		overflow-y: hidden !important;
+  		overflow-x: hidden !important;
 	}	
 
 	ul.nav.navbar-nav {
@@ -1279,6 +1282,8 @@ CUSTOM MEDIA QUERIES
 	right: 0 !important;
 	transition: all .3s ease-out;
 	overflow-y: hidden;
+	overflow-y: hidden !important;
+	overflow-x: hidden !important;
 }
 
 /*.body-shading {
